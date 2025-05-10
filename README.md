@@ -7,22 +7,22 @@ Vamos a implmentarlo y ejecutarlo usando Docker, lo que permite una fácil porta
   * Python 3, Flask, scikit-learn, Pandas / NumPy, Docker.
 
 # Estrucutra del repositorio
-¿Qué contiene cada archivo o carpeta del proyecto?
+¿Qué contiene cada archivo o carpeta de la actividad?
 
-`Api_iris_ML/
-├── app.py                 # Código principal de la API con Flask
-├── iris_models.py         # Script con funciones para cargar y usar modelos
-├── Dockerfile             # Instrucciones para construir la imagen Docker
-├── docker-compose.yml     # Ejecutar con un solo comando usando Docker Compose
-├── requirements.txt       # Librerías necesarias para ejecutar el proyecto
-├── README.md              # Esta guía :)
-└── models/                # Carpeta con los modelos entrenados
-    ├── model_forest.h5    # Modelo de Random Forest
-    ├── model_logistic.h5  # Modelo de Regresión Logística
-    ├── model_svm.h5       # Modelo de Máquina de Vectores de Soporte
-    ├── model_tree.h5      # Modelo de Árbol de Decisión
-    └── requirements.txt   # Requisitos específicos para los modelos (opcional)
-`
+Api_iris_ML/
+* app.py                 # Código principal de la API con Flask
+* iris_models.py         # Script con funciones para cargar y usar modelos
+* Dockerfile             # Instrucciones para construir la imagen Docker
+* docker-compose.yml     # Ejecutar con un solo comando usando Docker Compose
+* requirements.txt       # Librerías necesarias para ejecutar el proyecto
+* README.md              # Esta guía :)
+* models/                # Carpeta con los modelos entrenados
+    * model_forest.h5    # Modelo de Random Forest
+    * model_logistic.h5  # Modelo de Regresión Logística
+    * model_svm.h5       # Modelo de Máquina de Vectores de Soporte
+    * model_tree.h5      # Modelo de Árbol de Decisión
+    * requirements.txt   # Requisitos específicos para los modelos (opcional)
+
 
 # ¿Qué hace esta API?
 Recibe como entrada las siguientes características de una flor:
