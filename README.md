@@ -1,7 +1,7 @@
 # Api_iris_ML
 Esta actividad es una implementación de una API REST construida con Python, Flask y un modelo de Machine Learning entrenado con el famoso dataset de Iris. La API permite realizar predicciones de la especie de flor en función de las características de entrada (longitud y ancho del sépalo y del pétalo).
 
-Vamos a implmentarlo y ejecutarlo usando Docker, lo que permite una fácil portabilidad y ejecución del entorno completo.
+Vamos a implementarlo y ejecutarlo usando Docker, lo que permite una fácil portabilidad y ejecución del entorno completo.
 
 # Tecnologias a usar: 
   * Python 3, Flask, scikit-learn, Pandas / NumPy, Docker.
